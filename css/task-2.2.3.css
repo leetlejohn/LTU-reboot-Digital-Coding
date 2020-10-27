@@ -1,0 +1,39 @@
+img {
+    max-width: 300px;
+}
+
+
+h1 {
+
+    color: green;
+}
+
+a {
+    background-color: red;
+}
+
+ul {
+
+    color: blue;
+}
+
+li.purple {
+
+    color: purple;
+}
+
+h3 {
+
+    background-color: fuchsia;
+    max-width: 300px; 
+
+i.latin {
+
+    color: orange;
+}
+
+img.tiger {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: dashed;
+}
