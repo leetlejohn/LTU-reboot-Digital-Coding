@@ -1,0 +1,64 @@
+img {
+    max-width: 300px;
+}
+
+
+h1 {
+
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+h2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p em {
+
+    font-size: 40px;
+    color: fuchsia;
+    
+    }
+
+p strong {
+
+    font-size: 25px;
+    color: green;
+
+
+}
+
+a {
+    background-color: red;
+}
+
+ul {
+
+    color: blue;
+}
+
+li.purple {
+
+    color: purple;
+}
+
+h3 {
+
+    background-color: fuchsia;
+    max-width: 300px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+i.latin {
+
+    color: orange;
+}
+
+img.tiger {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: dashed;
+}
+
