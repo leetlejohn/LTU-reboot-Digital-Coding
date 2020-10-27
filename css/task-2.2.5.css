@@ -22,6 +22,18 @@ p em {
     
     }
 
+.pink {
+
+        background-color: pink;
+        
+        }
+
+p strong.pink {
+
+        background-color: gold;
+
+}
+
 p strong {
 
     font-size: 25px;
