@@ -62,8 +62,9 @@ h3 {
     max-width: 300px; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+}
 
-i.latin {
+.latin {
 
     color: orange;
 }
