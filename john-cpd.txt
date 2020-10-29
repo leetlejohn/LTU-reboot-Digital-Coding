@@ -7,3 +7,20 @@ Reflection
 In today's session we were introduced to GIT/Github. We were shown a quick demo on the advantages of using VSCode. We installed an extension on to VSCode. We have done an introductory demonstration of how to commit changes in files to a repo that we cloned onto our machine. 
 
 10 years ago I used to use Notepad++ and this is much better. 
+
+ Modules
+    Module 3 and 4
+       I have learned about html, with the most common tags such as images, hyperlinks, ordered and unordered lists and document setup.
+       I've played with CSS, adding styles to a html file using a relative link to a styelsheet.
+
+    27 October
+
+       In 2.2 and 2.3 we learned about specificity, classes and divs, and some fancy html 5 header and footer tags.
+
+    29 October
+
+        We looked at the box model and played with margins, borders and padding.
+
+        This took me back to 10 years ago when I'd be trying to work out why my floats weren't working and it was usually because I'd got my padding sums wrong.
+
+        We started looking at relative and absolute positioning.
