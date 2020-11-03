@@ -28,3 +28,5 @@ In today's session we were introduced to GIT/Github. We were shown a quick demo 
    3 November
 
       We learned about floats (still a thing(!)), z-indexes and some really interesting stuff about frameworks. I can't decide if they feel like cheating or not.
+
+      Google homepage copy task is a lot of fun. Seems to be 40% making stuff look right and 60% moving it around, but that might be FE development in general.
