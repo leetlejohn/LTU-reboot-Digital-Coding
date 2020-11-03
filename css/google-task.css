@@ -40,6 +40,7 @@ margin: 10px auto;
 
 width: 250px;
 height: 25px;
+padding-left: 35px;
 /*border: 1px solid grey;
 border-radius: 15%;*/
 
@@ -48,7 +49,7 @@ border-radius: 15%;*/
 img.glass {
 
 position: relative;
-right: 90px;
+right: 100px;
 bottom: 27px;
 
 }
@@ -56,7 +57,7 @@ bottom: 27px;
 img.mic {
 
 position: relative;
-left: 92px;
+left: 120px;
 bottom: 27px;
     
     }
