@@ -16,13 +16,17 @@ var tippercent = "10"
 
 var tipvalue = percentage(pretip, tippercent) 
 
-var totalbill = pretip + tipvalue 
+var totalbill = parseInt(pretip) + parseInt(tipvalue)
+
+var totalbilldec = totalbill.toFixed(2);
+
+var tipvaluedec = tipvalue.toFixed(2);
 
 
 /* write totals to document */
 
 document.write('Your total bill, with tip, is £' );
-document.write(totalbill);
+document.write(totalbilldec);
 
 document.write('<br>Tip value is £')
-document.write(tipvalue);
+document.write(tipvaluedec);
