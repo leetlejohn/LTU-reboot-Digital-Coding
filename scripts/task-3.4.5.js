@@ -14,4 +14,4 @@ else {
     console.log('Just pants and vest is fine');
 }
 
-//this logic is not working
+//this logic wasn't working but I think it was down to the order
