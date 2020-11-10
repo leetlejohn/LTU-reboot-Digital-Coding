@@ -36,3 +36,8 @@ In today's session we were introduced to GIT/Github. We were shown a quick demo 
       First taste of Javascript which was a lot more accessible than I imagined. I managed to self-fix a keychain issue with my GitHub desktop without totally losing my way in the lesson.
 
       De-mystified a lot of stuff for me.
+
+
+   10 November
+
+   Functions and program flow which was quite fun in the end
