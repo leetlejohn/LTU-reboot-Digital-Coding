@@ -5,7 +5,8 @@ function addName(firstName, lastName){
     return(firstName, lastName);
 }
 
+var userName = addName('Curtis' , 'Schmurtis'); 
 
 
 
-addName('Curtis', 'Schmurtis');
+console.log(userName); //not sure why this only conole logs the last name
