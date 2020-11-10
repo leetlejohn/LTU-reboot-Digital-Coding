@@ -3,4 +3,5 @@ function addName(firstName, lastName){
 }
 
 
-addName("Bernard", "Chapster")
+addName("Bernard", "Chapster");
+addName("Michael","Ironside");
