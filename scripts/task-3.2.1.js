@@ -1,6 +1,9 @@
 function sentence()
 {
 
-document.write('Here is a sentence from a function');
+console.log('This is a message from the console derived from a function');
 
 }
+
+
+sentence();
