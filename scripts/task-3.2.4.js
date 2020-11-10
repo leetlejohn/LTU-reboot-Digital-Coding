@@ -1,5 +1,5 @@
-var temperature = 50;
+var temperature = 30;
 
-if (temperature > 50) {
+if (temperature < 50) {
     console.log('Put on your coat');
 }
