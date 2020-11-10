@@ -11,4 +11,5 @@ var userName = addName('Curtis' , 'Schmurtis');
 
 //output variable
 
-console.log(userName); //not sure why this only conole logs the last name
+console.log(userName); //not sure why this only console logs the last name
+                      
