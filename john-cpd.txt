@@ -41,3 +41,7 @@ In today's session we were introduced to GIT/Github. We were shown a quick demo 
    10 November
 
    Functions and program flow which was quite fun in the end
+
+   12 November
+
+   Three practical exercises creating small js programs using functions, logic and different operators.
