@@ -1,4 +1,4 @@
-var temperature = -25;
+var temperature = 56;
 
 
 if (temperature < 0) {
@@ -14,7 +14,7 @@ else if (temperature < 50) {
 else if (temperature > 50 && temperature === 55)  {
     console.log('It is very hot'); }
 
-else if (temperature > 50 || temperature === 55)  {
+else if (temperature > 50 || temperature === 56)  {
 
     console.log('It is extremely hot, looks like someone is going to get burned'); }
 
