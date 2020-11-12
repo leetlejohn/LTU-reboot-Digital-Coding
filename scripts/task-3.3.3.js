@@ -2,9 +2,12 @@
 
 function calculator(number1, number2, operator) {
 
+    var result = '';
+
     switch (operator) {
         case '+':
-            console.log(parseInt(number1) + parseInt(number2) );
+            result = number1 + number2;
+            console.log(parseInt(number1) + ' + ' + parseInt(number2) + ' = ' + parseInt(result) );
             break;
  
         case '-':
@@ -32,8 +35,8 @@ function calculator(number1, number2, operator) {
 
 // set variables
 
-var value = calculator('2', '4', '%');
+var value = calculator('2', '4', '+');
 
 
 
-
+//not sure why result is suddenly concatenating 
