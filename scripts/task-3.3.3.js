@@ -6,28 +6,32 @@ function calculator(number1, number2, operator) {
 
     switch (operator) {
         case '+':
-            result = number1 + number2;
-            console.log(parseInt(number1) + ' + ' + parseInt(number2) + ' = ' + parseInt(result) );
+            result = parseInt(number1) + parseInt(number2);
+            console.log(number1 + ' + ' + number2 + ' = ' + result );
             break;
  
         case '-':
-            console.log(parseInt(number1) - parseInt(number2) );
+            result = number1 - number2;
+            console.log(number1 + ' - ' + number2 + ' = ' + result );
             break;
 
         case '*':
-            console.log(parseInt(number1) * parseInt(number2) );
+            result = number1 * number2;
+            console.log(number1 + ' * ' + number2 + ' = ' + result );
             break;  
          
         case '/':
-            console.log(parseInt(number1) / parseInt(number2) );
+            result = number1 / number2;
+            console.log(number1 + ' / ' + number2 + ' = ' + result );
             break;  
 
         case '%':
-            console.log(parseInt(number1) % parseInt(number2) );
+            result = number1 % number2;
+            console.log(number1 + ' % ' + number2 + ' = ' + result );
             break;  
             
         default:
-            //error message
+            console.log('This is an error message');
             break;
     }
 
@@ -39,4 +43,4 @@ var value = calculator('2', '4', '+');
 
 
 
-//not sure why result is suddenly concatenating 
+
