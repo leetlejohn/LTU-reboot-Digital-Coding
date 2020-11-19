@@ -14,11 +14,12 @@ document.write("I'm hungry let's cook " + recipe.recipeTitle );
 
 var ingredients = recipe.ingredients;
 
-document.write('<br> <br><strong>Ingredients</strong> <br>')
+document.write('<br> <br><strong>Ingredients</strong> <br> ')
 
 for( var index = 0; index < ingredients.length; index++ ) {
     
     document.write( '<br> <li>' + ingredients[index]);
 }
+
 
 // this doesn't work as a function but I'll work out why later
