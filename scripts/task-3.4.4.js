@@ -1,16 +1,15 @@
 var recipe = {
-recipeTitle: "Spaghetti Carbonara",
+recipeTitle: 'Spaghetti Carbonara',
 servings: 3,
-ingredients: ['nutmeg', 'parmesan', 'spaghetti', 'pork goujons'],
-directions: "Cook the food"
+ingredients: ["nutmeg", "parmesan", "spaghetti", "pork goujons"],
+directions: ["Cook the food", "Cook the food more"],
+//letsCook: function() {
+
+    //console.log("I'm hungry let's cook " + recipe.recipeTitle );
+//}
 
 };
 
+console.log("I'm hungry let's cook " + recipe.recipeTitle );
 
-
-for(var index = 0; index < recipe.length; index++ ) {
-
-    document.write( recipe[index]);
-}
-
-// there is another task below this also
+// this doesn't work as a function but I'll work out why later
