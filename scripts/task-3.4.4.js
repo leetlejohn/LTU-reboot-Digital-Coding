@@ -7,4 +7,10 @@ directions: "Cook the food"
 };
 
 
+
+for(var index = 0; index < recipe.length; index++ ) {
+
+    document.write( recipe[index]);
+}
+
 // there is another task below this also
