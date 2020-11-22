@@ -68,23 +68,34 @@ let shoppingCart = [
 
   
     
-    function shoppingCartTotalPrice( arr ) {  //1. Create a function that takes one argument (the array)
+    function foodDiscount ( arr ) {  //1. Create a function that takes one argument (the array)
 
         var totalPrice = 0; //2. Create a variable inside the function called totalPrice
         
         
+        //3. Loop through each item in the array 
         for (var index=0; index < arr.length; index++) {
 
-            if ( arr[index].type='food')  {arr[index].price = 20 / 100 * arr[index].price};//4. If the item has a type of "food" the total price is 20% less
-            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity );//3. Loop through each item in the array and add the value of the item to the total price, remember to account for the quantity
+
+            //4. If the item has a type of "food" the total price is 20% less
+            if ( arr[index].type === 'food')  { 
+                
+                var discount = ( arr[index].price * 20 ) /100; 
+
+                totalPrice = totalPrice + ( arr[index].price - discount ) * arr[index].quantity;
+
+            } else {
+
+
+                totalPrice = totalPrice + (arr[index].price * arr[index].quantity);
+            }
+            
+           
 
         } 
-
-
         
-
         return totalPrice.toFixed(2); //5. Return the totalPrice variable
     
     }
 
-console.log( shoppingCartTotalPrice( shoppingCart ) ); //5. Console.log the returned value
+console.log( foodDiscount ( shoppingCart ) ); //5. Console.log the returned value
