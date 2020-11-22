@@ -49,3 +49,9 @@ In today's session we were introduced to GIT/Github. We were shown a quick demo 
    17 November
 
    Loops, objects and arrays. Getting real now.
+
+   19 November
+
+   Practicals using loops, arrays, logic, applying maths to variables etc.
+   Did this on 21 November as had to drop out on the day.
+   Finally figured out how to simply do percentages in Javascript.
