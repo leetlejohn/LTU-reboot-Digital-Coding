@@ -98,4 +98,4 @@ let shoppingCart = [
 
     }
 
-  console.log(discountAmount( shoppingCart, 90, 'alcohol') );
+  console.log( 'alcohol at 90% discount! ' + discountAmount( shoppingCart, 90, 'alcohol') );
