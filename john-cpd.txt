@@ -55,3 +55,9 @@ In today's session we were introduced to GIT/Github. We were shown a quick demo 
    Practicals using loops, arrays, logic, applying maths to variables etc.
    Did this on 21 November as had to drop out on the day.
    Finally figured out how to simply do percentages in Javascript.
+
+   24 November
+
+   The DOM, creating and swapping out nodes and html elements, really fun stuff.
+
+   I've started catching up on the lesson recordings after the fact, as I've found with work pressures I'm too tired to adequately follow in the evening. I'm still very engaged though! Please check my GitHub if you doubt me. Which you already are if you're reading this.
