@@ -19,12 +19,15 @@
 
         var paragraph = document.querySelectorAll('p');
 
-        for( var index = 0; index < paragraph.length; index++ ) {
-            paragraph[index].style.color = 'red';
+        //for( var index = 0; index < paragraph.length; index++ ) {
+         //   paragraph[index].style.color = 'red';
 
-        }
+        //}
 
-  
+        paragraph.forEach( function(para) {
+
+        para.style.color = "blue";
+        } );
 
 
     </script>
