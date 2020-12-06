@@ -18,6 +18,6 @@ var inputValue = document.getElementById('queryBox').value;
 
 var button = document.getElementsByTagName('button');
 
-button.addEventListener("onclick", search ( inputValue, button.value) );  //how to get the actual values?
+button.addEventListener("onclick", search ( inputValue, button) );  //how to get the actual values?
 
 
