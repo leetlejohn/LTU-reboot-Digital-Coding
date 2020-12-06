@@ -6,4 +6,14 @@ console.log( searchString, filter);
 
 }
 
-search ('looky, findy')
+// search ('looky, findy')
+
+
+// add event listener
+
+var button = document.getElementById("cat");
+
+button.addEventListener("onclick", function (event) {
+
+    search( cat, filter);
+})
