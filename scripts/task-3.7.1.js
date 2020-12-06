@@ -2,18 +2,22 @@
 
 function search ( searchString, filter) { 
 
+
 console.log( searchString, filter);
 
 }
 
-// search ('looky, findy')
+search ('looky, findy')
 
 
 // add event listener
 
-var button = document.getElementById("cat");
+var inputValue = document.getElementById('queryBox').value;
 
-button.addEventListener("onclick", function (event) {
+//need to get the buttons
 
-    search( cat, filter);
-})
+var button = document.getElementsByTagName('button');
+
+button.addEventListener("onclick", search ( inputValue, button.value) );  //how to get the actual values?
+
+
